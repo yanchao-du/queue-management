@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/api/join", "destination": "/api/join" },
+    { "source": "/api/status", "destination": "/api/status" },
+    { "source": "/api/admin/queue", "destination": "/api/admin/queue" },
+    { "source": "/api/admin/checkin/:id", "destination": "/api/admin/checkin?id=:id" }
+  ]
+}
